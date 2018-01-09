@@ -1,0 +1,7 @@
+URxvt*cursorColor:                      #cfd2cf
+URxvt*saveLines:                      5000
+
+rofi.color-enabled: true
+rofi.color-window: #2f2f38, #688486, #688486
+rofi.color-normal: #2f2f38, #688486, #2f2f38, #2f2f38, #cfd2cf
+rofi.color-active: #2f2f38, #688486, #2f2f38, #2f2f38, #cfd2cf
