@@ -10,6 +10,8 @@ set number
 set nocompatible
 set rtp+=~/.vim/bundle/Vundle.vim
 set shell=/bin/bash
+set clipboard=unnamed
+set clipboard^=unnamedplus
 
 call vundle#begin()
 

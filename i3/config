@@ -1,6 +1,13 @@
 set $mod Mod3
 set $switcher "rofi -combi-modi window,drun,ssh -show combi -modi combi"
 
+#------
+# i3gaps
+# -----
+gaps inner 5 
+gaps outer 5
+smart_gaps on
+
 #.......
 # Font
 #.......
@@ -192,8 +199,8 @@ bindsym $mod+Next workspace next
 bindsym Print exec --no-startup-id shutter -s
 
 # Hide window title
-for_window [class="^.*"] border pixel 1
-new_window pixel 1
+#for_window [class="^.*"] border pixel 1
+#new_window pixel 1
 
 # Startup
 exec --no-startup-id "nm-applet"
@@ -209,8 +216,6 @@ exec "xmodmap ~/.Xmodmap"
 
 # Quickswitch (mod+])
 bindcode $mod+35 exec $switcher
-# GTK Theme sector (mod+a)
-bindcode $mod+38 exec lxappearance
 # Color picker (mod+g)
 bindcode $mod+42 exec gcolor2
 
@@ -232,3 +237,4 @@ mode $displayMode {
 
 # Floating
 #for_window [class="[.]*"] floating enable
+

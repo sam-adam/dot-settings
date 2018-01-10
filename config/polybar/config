@@ -277,7 +277,7 @@ bar-progress-empty-foreground = #44
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
+interface = wlp7s0
 interval = 3.0
 ping-interval = 10
 
@@ -300,7 +300,7 @@ animation-packetloss-framerate = 500
 
 [module/wired-network]
 type = internal/network
-interface = enp0s25
+interface = enp6s0
 interval = 3.0
 
 label-connected =    %{T3}%local_ip%%{T-}
